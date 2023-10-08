@@ -35,3 +35,18 @@ body {
 .timeDisplay {
     font-size: 0.8em;
 }
+
+#mediaPlayerWrapper {
+    position: relative;
+    width: 80%; /* 调整视频容器的宽度 */
+    height: 240px; /* 固定视频的高度 */
+    margin-bottom: 10px;
+}
+
+#mediaPlayerWrapper video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
