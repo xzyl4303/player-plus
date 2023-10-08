@@ -1,56 +1,49 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-.video-container {
-    width: 80%;
-    max-width: 800px;
-    margin-bottom: 20px;
+.container {
+    width: 300px;
+    margin: 20px;
 }
 
-.media-player {
-    background-color: #000;
-}
-
-.controls-container {
+.controls {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
-.control-buttons {
-    margin-bottom: 10px;
-}
-
-.control-button {
-    background-color: #3498db;
-    color: white;
-    border: none;
+.controlBtn {
     padding: 10px 20px;
-    margin-right: 10px;
     cursor: pointer;
 }
 
-.progress-bar {
-    width: 100%;
-    height: 10px;
-    background-color: #ccc;
-    margin-bottom: 10px;
+.volumeControl,
+.progressBar,
+.speedControl {
+    width: 80px;
 }
 
-.progress {
-    height: 100%;
-    background-color: #3498db;
-    width: 0;
+.timeDisplay {
+    font-size: 0.8em;
 }
 
-.volume-control {
-    display: flex;
-    align-items: center;
+.loopButton {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loopButton:hover {
+    background-color: #45a049;
 }
