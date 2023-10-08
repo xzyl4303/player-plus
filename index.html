@@ -10,11 +10,11 @@
 
 <body>
     <div id="playerContainer" class="container">
-        <input type="file" id="mediaFile" class="fileInput" accept=".mp4, .mp3, .mov, audio/*, video/*"> <!-- 支持多种文件格式 -->
         <div id="mediaPlayerWrapper">
             <!-- 实际的音视频播放器元素会在JavaScript中动态创建 -->
         </div>
         <div id="customControls" class="controls">
+            <input type="file" id="mediaFile" class="fileInput" accept=".mp4, .mp3, .mov, audio/*, video/*"> <!-- 支持多种文件格式 -->
             <button id="playPauseBtn" class="controlBtn">播放</button>
             <input type="range" id="volumeControl" class="volumeControl" min="0" max="1" step="0.1" value="1">
             <span id="currentTime" class="timeDisplay">0:00</span>
