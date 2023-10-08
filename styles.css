@@ -20,7 +20,8 @@ body {
     margin-top: 10px;
 }
 
-.controlBtn {
+.controlBtn,
+.loopButton {
     padding: 10px 20px;
     cursor: pointer;
 }
@@ -33,17 +34,4 @@ body {
 
 .timeDisplay {
     font-size: 0.8em;
-}
-
-.loopButton {
-    padding: 10px 20px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.loopButton:hover {
-    background-color: #45a049;
 }
