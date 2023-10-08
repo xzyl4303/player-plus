@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.video-container {
+    width: 80%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.media-player {
+    background-color: #000;
+}
+
+.controls-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.control-buttons {
+    margin-bottom: 10px;
+}
+
+.control-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #3498db;
+    width: 0;
+}
+
+.volume-control {
+    display: flex;
+    align-items: center;
+}
